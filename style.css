@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#back{
+        position: relative;
+    background: url(/img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#front{
+    background: url(/img/thumb-1920-1041825.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55em;
+    height: 35em;
+    border-radius: 10px;
+}
+
+
+/*    NAV     */
+
+nav{
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    cursor: pointer;
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 10px 20px 0px 15px;
+    font-size: 20px;
+    padding: 10px;
+    transition: ease-in-out 300ms;
+}
+nav ul li:hover{
+    transform: scale(1.03);
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none
+}
+
+
+/*   SPAN   */
+
+h1{
+    margin-left: 150px;
+    margin-top: 150px;
+    color: white;
+    font-size: 63px;
+    filter: drop-shadow(1px 6px 30px white);
+    transition: ease-in-out 300ms;
+}
+h1:hover{
+    filter: drop-shadow(0px 3px 20px white);
+}
+h3{
+    font-family: monospace;
+    color: white;
+    margin-left: 170px;
+}
+
+button{
+    padding: 3px;
+    margin-top: 25px;
+    margin-left: 230px;
+    width: 75px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    box-shadow: inset 1px 8px 25px white;
+    cursor: pointer;
+    transition: ease-in-out 350ms;
+}
+button:hover{
+    font-family: sans-serif;
+    background-color: red;
+    transform: scale(1.06);
+}
+
+p{
+    margin-top: 12px;
+    margin-left: 242px;
+    color: white;
+}
+
+/* span ul{
+    margin-top: 10px;
+    margin-left: 236px;
+    list-style: none;
+    color: white;
+}
+span ul li{
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 3px;
+    transition: ease-in-out 300ms;
+    width: 70px;
+}
+span ul li:hover{
+    padding: 2px;
+    width: 70px;
+    color: black;
+    border-radius: 3px;
+    background-color: white;
+    transform: scale(1.03);
+} */
+
+span{
+    margin-left: 96px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    margin-top: 15px;
+    display: flex;
+}
+
+span #card{
+    transition: ease-in-out 300ms;
+    width: 80px;
+}
+span #card:hover{
+    transform: scale(1.06);
+}
+
+span #boleto{
+    transition: ease-in-out 300ms;
+    width: 90px;
+}
+span #boleto:hover{
+    transform: scale(1.06);
+}
+
+span #paypal{
+    transition: ease-in-out 300ms;
+    width: 90px;
+}
+span #paypal:hover{
+    transform: scale(1.06);
+}
+
+span img{
+    cursor: pointer;
+}
